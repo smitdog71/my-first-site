@@ -2,9 +2,32 @@ body {
   margin: 0;
   padding: 0;
 }
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+ul li {
+  color: red;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 25px 10px 25px;
+  border: 1px solid lightgray;
+}
+ul ul {
+  display: none;
+}
 header, footer, main {
   padding-left: 30px;
   padding-right:30px;
+}
+header {
+  padding-top:30px;
+  padding-bottom:30px;
 }
 main h1, main p {
   color: #FFFFFF;
