@@ -28,6 +28,10 @@ header, footer, main {
   padding-left: 30px;
   padding-right:30px;
 }
+header {
+  padding-top:30px;
+  padding-bottom:30px;
+}
 main h1, main p {
   color: #FFFFFF;
 }
